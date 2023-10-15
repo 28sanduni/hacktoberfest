@@ -16,6 +16,7 @@ void employee(struct employee c1)
         scanf("%s",&c1.stdname);
         printf("Enter student marks: ");
         scanf("%d",&c1.marks);
+        printf("");
         printf("/n");
 
         printf("%d \n %s \n %d \n",c1.sid,c1.stdname,c1.marks);
